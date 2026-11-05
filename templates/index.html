@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz Master | Test Your Knowledge</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- ==================================
+         LANDING PAGE
+    =================================== -->
+
+    <main id="landing-page">
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+                ⚡ QUIZ<span>MASTER</span>
+            </a>
+
+            <div class="nav-links">
+
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+
+                <button class="nav-btn" onclick="startQuiz()">
+                    Start Quiz →
+                </button>
+
+            </div>
+
+        </nav>
+
+
+        <!-- HERO -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <span class="tagline">
+                    ✨ YOUR KNOWLEDGE. YOUR CHALLENGE.
+                </span>
+
+                <h1>
+                    Challenge Your Knowledge.
+                    <span class="gradient-text">
+                        Unlock Your Potential.
+                    </span>
+                </h1>
+
+                <p>
+                    Learning becomes exciting when you challenge yourself.
+                    Test your programming knowledge, explore new concepts,
+                    and discover your potential with Quiz Master.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn"
+                            onclick="startQuiz()">
+                        Start Your Quiz →
+                    </button>
+
+                    <a href="#features" class="secondary-btn">
+                        Explore Features
+                    </a>
+
+                </div>
+
+                <div class="hero-trust">
+                    <span>✓ Instant Results</span>
+                    <span>✓ Smart Questions</span>
+                    <span>✓ Free Learning</span>
+                </div>
+
+            </div>
+
+
+            <!-- PREVIEW CARD -->
+
+            <div class="hero-visual">
+
+                <div class="glow-circle"></div>
+
+                <div class="preview-card">
+
+                    <div class="preview-header">
+
+                        <div>
+                            <span class="small-label">QUIZ PREVIEW</span>
+                            <h3>Test Your Skills</h3>
+                        </div>
+
+                        <span class="live-badge">● LIVE</span>
+
+                    </div>
+
+                    <div class="question-label">
+                        QUESTION 01 / 25
+                    </div>
+
+                    <h3 class="preview-question">
+                        Which language is widely used for AI development?
+                    </h3>
+
+                    <div class="preview-option">
+                        <span>A</span> HTML
+                    </div>
+
+                    <div class="preview-option selected">
+                        <span>B</span> Python
+                        <strong>✓</strong>
+                    </div>
+
+                    <div class="preview-option">
+                        <span>C</span> CSS
+                    </div>
+
+                    <div class="preview-option">
+                        <span>D</span> XML
+                    </div>
+
+                    <div class="preview-footer">
+                        <span>Progress</span>
+                        <span>65%</span>
+                    </div>
+
+                    <div class="preview-progress">
+                        <div></div>
+                    </div>
+
+                </div>
+
+                <div class="floating-card">
+                    🏆 Keep Learning. Keep Winning.
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATISTICS -->
+
+        <section class="stats">
+
+            <div class="stat-item">
+                <h2>25+</h2>
+                <p>Interactive Questions</p>
+            </div>
+
+            <div class="stat-item">
+                <h2>5+</h2>
+                <p>Technology Concepts</p>
+            </div>
+
+            <div class="stat-item">
+                <h2>100%</h2>
+                <p>Learning Experience</p>
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+
+        <section class="features" id="features">
+
+            <div class="section-heading">
+
+                <span class="section-tag">OUR FEATURES</span>
+
+                <h2>
+                    Learn Smarter.
+                    <span class="gradient-text">Perform Better.</span>
+                </h2>
+
+                <p>
+                    Everything you need to improve your knowledge
+                    and track your performance.
+                </p>
+
+            </div>
+
+
+            <div class="features-grid">
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">🧠</div>
+
+                    <h3>Smart Questions</h3>
+
+                    <p>
+                        Practice programming, computer science,
+                        and technical concepts with interactive questions.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">⚡</div>
+
+                    <h3>Instant Results</h3>
+
+                    <p>
+                        Get your score immediately after completing
+                        the quiz and understand your performance.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">📊</div>
+
+                    <h3>Answer Analysis</h3>
+
+                    <p>
+                        Review your answers, identify mistakes,
+                        and learn from detailed explanations.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about" id="about">
+
+            <span class="section-tag">ABOUT QUIZ MASTER</span>
+
+            <h2>
+                Knowledge is Power.
+                <span class="gradient-text">Test Yours Today.</span>
+            </h2>
+
+            <p>
+                Quiz Master is an interactive learning platform
+                designed to make testing knowledge simple,
+                engaging, and effective.
+            </p>
+
+            <button class="primary-btn" onclick="startQuiz()">
+                Let's Get Started →
+            </button>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+
+            <div class="logo">
+                ⚡ QUIZ<span>MASTER</span>
+            </div>
+
+            <p>
+                Built with ❤️ for curious minds.
+            </p>
+
+            <small>© 2026 Quiz Master. All rights reserved.</small>
+
+        </footer>
+
+    </main>
+
+
+    <!-- ==================================
+         QUIZ PAGE
+    =================================== -->
+
+    <main id="quiz-page" class="hidden">
+
+        <div class="quiz-container" id="quiz-panel">
+
+            <div class="quiz-header">
+
+                <div>
+                    <div class="logo">
+                        ⚡ QUIZ<span>MASTER</span>
+                    </div>
+
+                    <p>Challenge yourself!</p>
+                </div>
+
+                <span id="question-count">
+                    Question 1 of 25
+                </span>
+
+            </div>
+
+
+            <!-- PROGRESS -->
+
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+
+
+            <!-- QUESTION -->
+
+            <p id="question-number">QUESTION 01</p>
+
+            <h2 id="question-text">
+                Loading question...
+            </h2>
+
+
+            <!-- OPTIONS -->
+
+            <div id="options"></div>
+
+
+            <p id="score-preview"></p>
+
+            <p id="message"></p>
+
+
+            <!-- BUTTONS -->
+
+            <div class="quiz-navigation">
+
+                <button id="previous-btn">
+                    ← Previous
+                </button>
+
+                <button id="next-btn">
+                    Next →
+                </button>
+
+                <button id="submit-btn" class="hidden">
+                    Submit Quiz ✓
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- RESULTS -->
+
+        <div id="result-panel" class="hidden">
+
+            <div class="result-icon">🏆</div>
+
+            <h2>Quiz Completed!</h2>
+
+            <p>Your performance summary</p>
+
+            <div id="final-score">0 / 25</div>
+
+            <p id="result-message">
+                Great effort! Keep learning.
+            </p>
+
+            <h3>Answer Review</h3>
+
+            <div id="review-list"></div>
+
+            <div class="result-buttons">
+
+                <button id="restart-btn">
+                    🔄 Try Again
+                </button>
+
+                <button class="secondary-btn"
+                        onclick="goHome()">
+                    ← Back to Home
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Text Machine Language",
+      "Hyper Transfer Makeup Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": 0,
+    "explanation": "HTML stands for Hyper Text Markup Language."
+  },
+  {
+    "id": 2,
+    "question": "Which HTML element creates the largest heading?",
+    "options": ["<h6>", "<head>", "<h1>", "<header>"],
+    "answer": 2,
+    "explanation": "The h1 element represents the highest-level heading."
+  },
+  {
+    "id": 3,
+    "question": "Which HTML element creates a hyperlink?",
+    "options": ["<link>", "<a>", "<href>", "<url>"],
+    "answer": 1,
+    "explanation": "The anchor element creates hyperlinks."
+  },
+  {
+    "id": 4,
+    "question": "Which attribute provides alternative text for images?",
+    "options": ["title", "src", "alt", "name"],
+    "answer": 2,
+    "explanation": "The alt attribute provides alternative text."
+  },
+  {
+    "id": 5,
+    "question": "Which element connects an external CSS file?",
+    "options": ["<style>", "<css>", "<script>", "<link>"],
+    "answer": 3,
+    "explanation": "The link element connects external stylesheets."
+  },
+  {
+    "id": 6,
+    "question": "Which CSS property changes text color?",
+    "options": ["font-style", "color", "background-color", "text-align"],
+    "answer": 1,
+    "explanation": "The color property changes text color."
+  },
+  {
+    "id": 7,
+    "question": "Which CSS layout system is designed for one-dimensional layouts?",
+    "options": ["Grid", "Float", "Flexbox", "Position"],
+    "answer": 2,
+    "explanation": "Flexbox is designed for one-dimensional layouts."
+  },
+  {
+    "id": 8,
+    "question": "Which selector targets an element with id main?",
+    "options": [".main", "#main", "main*", "@main"],
+    "answer": 1,
+    "explanation": "The # symbol is used for ID selectors."
+  },
+  {
+    "id": 9,
+    "question": "Which CSS property adds space inside an element's border?",
+    "options": ["margin", "padding", "gap", "outline"],
+    "answer": 1,
+    "explanation": "Padding creates space between content and border."
+  },
+  {
+    "id": 10,
+    "question": "Which CSS feature helps adapt layouts to different screen widths?",
+    "options": ["Media queries", "z-index", "text-transform", "border-radius"],
+    "answer": 0,
+    "explanation": "Media queries apply styles based on viewport conditions."
+  },
+  {
+    "id": 11,
+    "question": "Which JavaScript keyword declares a reassignable block-scoped variable?",
+    "options": ["const", "let", "static", "define"],
+    "answer": 1,
+    "explanation": "let declares a reassignable block-scoped variable."
+  },
+  {
+    "id": 12,
+    "question": "Which method selects an element using its ID?",
+    "options": [
+      "document.querySelectorAll()",
+      "document.getElementById()",
+      "window.get()",
+      "document.getClass()"
+    ],
+    "answer": 1,
+    "explanation": "getElementById selects an element by its ID."
+  },
+  {
+    "id": 13,
+    "question": "Which event occurs when a user clicks a button?",
+    "options": ["change", "submit", "click", "load"],
+    "answer": 2,
+    "explanation": "The click event occurs when an element is clicked."
+  },
+  {
+    "id": 14,
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.object()",
+      "parse.JSON()"
+    ],
+    "answer": 1,
+    "explanation": "JSON.parse converts JSON text into JavaScript data."
+  },
+  {
+    "id": 15,
+    "question": "Which array method adds an item to the end?",
+    "options": ["pop()", "shift()", "push()", "slice()"],
+    "answer": 2,
+    "explanation": "push() adds elements to the end of an array."
+  },
+  {
+    "id": 16,
+    "question": "What does DOM stand for?",
+    "options": [
+      "Data Object Model",
+      "Document Object Model",
+      "Digital Ordinance Model",
+      "Display Output Method"
+    ],
+    "answer": 1,
+    "explanation": "DOM stands for Document Object Model."
+  },
+  {
+    "id": 17,
+    "question": "Which Python keyword defines a function?",
+    "options": ["function", "fun", "def", "lambda"],
+    "answer": 2,
+    "explanation": "The def keyword defines a Python function."
+  },
+  {
+    "id": 18,
+    "question": "Which Python data type stores key-value pairs?",
+    "options": ["list", "tuple", "dictionary", "set"],
+    "answer": 2,
+    "explanation": "A dictionary stores data as key-value pairs."
+  },
+  {
+    "id": 19,
+    "question": "Which Python module works with JSON?",
+    "options": ["csv", "json", "math", "random"],
+    "answer": 1,
+    "explanation": "Python provides a built-in json module."
+  },
+  {
+    "id": 20,
+    "question": "Which Flask decorator defines a URL route?",
+    "options": ["url()", "route()", "path()", "endpoint()"],
+    "answer": 1,
+    "explanation": "The route decorator maps URLs to view functions."
+  },
+  {
+    "id": 21,
+    "question": "Which HTTP method is commonly used to retrieve data?",
+    "options": ["POST", "PUT", "GET", "DELETE"],
+    "answer": 2,
+    "explanation": "GET is commonly used to retrieve resources."
+  },
+  {
+    "id": 22,
+    "question": "What does API stand for?",
+    "options": [
+      "Application Programming Interface",
+      "Applied Program Internet",
+      "Application Process Integration",
+      "Automated Program Instruction"
+    ],
+    "answer": 0,
+    "explanation": "API stands for Application Programming Interface."
+  },
+  {
+    "id": 23,
+    "question": "Which HTTP status code indicates success?",
+    "options": ["404", "500", "200", "301"],
+    "answer": 2,
+    "explanation": "HTTP 200 indicates a successful request."
+  },
+  {
+    "id": 24,
+    "question": "What is JSON used for in this project?",
+    "options": [
+      "Styling the page",
+      "Storing question and answer data",
+      "Running Python code",
+      "Creating browser events"
+    ],
+    "answer": 1,
+    "explanation": "JSON stores questions, options and correct answers."
+  },
+  {
+    "id": 25,
+    "question": "Why should Python verify quiz answers on the server?",
+    "options": [
+      "To make CSS load faster",
+      "To keep answer checking under server control",
+      "To change the font",
+      "To avoid HTML"
+    ],
+    "answer": 1,
+    "explanation": "Server-side verification avoids trusting browser-side scoring alone."
+  }
+]
